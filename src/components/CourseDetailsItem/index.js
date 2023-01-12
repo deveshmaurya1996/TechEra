@@ -1,3 +1,5 @@
+import './index.css'
+
 const CourseDetailsItem = props => {
   const {courseItemDetails} = props
   const {name, description, imageUrl} = courseItemDetails

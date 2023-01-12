@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 import CourseDetailsItem from '../CourseDetailsItem'
 import Header from '../Header'
+import './index.css'
 
 const apiStatusConstants = {
   initial: 'INITIAL',
@@ -91,7 +92,7 @@ class CourseDetails extends Component {
   renderLoader = () => (
     <div className="loader-container" data-testid="loader">
       <Loader type="ThreeDots" color="#00BFFF" height={50} width={50} />
-    </LoaderContainer>
+    </div>
   )
 
   renderCourseDetails = () => {

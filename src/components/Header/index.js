@@ -1,4 +1,5 @@
 import {Link, withRouter} from 'react-router-dom'
+import './index.css'
 
 const Header = () => (
   <div className="nav-header">
